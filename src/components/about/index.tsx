@@ -9,13 +9,11 @@ interface aboutInterface {
 }
 const AboutContainar = tw.div`space-y-4 text-center`
 
-const About: FC<aboutInterface> = ({ title, children }) => {
-  return (
-    <AboutContainar>
-      <Title>{title}</Title>
-      <Text>{children}</Text>
-    </AboutContainar>
-  )
-}
+const About: FC<aboutInterface> = ({ title, children }) => (
+  <AboutContainar>
+    <Title>{title}</Title>
+    <Text>{children}</Text>
+  </AboutContainar>
+)
 
 export { About }

@@ -9,12 +9,11 @@ interface CharacterInterface {
 
 const CharacterContainar = tw.div`space-y-4 text-center`
 
-const Character: FC<CharacterInterface> = ({ title }) => {
-  return (
-    <CharacterContainar>
-      <Title>{title}</Title>
-      <ModelDraw />
-    </CharacterContainar>
-  )
-}
+const Character: FC<CharacterInterface> = ({ title }) => (
+  <CharacterContainar>
+    <Title>{title}</Title>
+    <ModelDraw />
+  </CharacterContainar>
+)
+
 export { Character }
