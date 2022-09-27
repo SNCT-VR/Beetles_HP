@@ -12,6 +12,7 @@ const Scene = () => {
 }
 
 const ModelDrawContainar = tw.div` md:w-[calc(100vw/2)]  md:h-[calc(100vh/2)] justify-center border-2  mx-2 md:mx-auto`
+
 const ModelDraw: FC = () => (
   <ModelDrawContainar>
     <Canvas>
