@@ -7,7 +7,7 @@ interface aboutInterface {
   title: string
   children: React.ReactNode
 }
-const AboutContainar = tw.div`space-y-4`
+const AboutContainar = tw.div`space-y-2`
 
 const About: FC<aboutInterface> = ({ title, children }) => {
   return (
