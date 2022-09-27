@@ -7,7 +7,7 @@ interface CharacterInterface {
   title: string
 }
 
-const CharacterContainar = tw.div`space-y-2`
+const CharacterContainar = tw.div`space-y-4 text-center`
 
 const Character: FC<CharacterInterface> = ({ title }) => {
   return (
