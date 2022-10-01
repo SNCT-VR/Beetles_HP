@@ -1,9 +1,11 @@
+/** @type {import("@types/tailwindcss/tailwind-config").TailwindConfig} */
 module.exports = {
   theme: {
     extend: {
       colors: {
-        electric: '#db00ff',
-        ribbon: '#0047ff',
+        green: '#223c37',
+        background: '#eff8e4',
+        masara: '#3e393a',
       },
     },
   },
