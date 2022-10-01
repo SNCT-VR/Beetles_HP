@@ -1,5 +1,5 @@
 {
-  "name": "vite-emotion-typescript",
+  "name": "Beetles-HP",
   "license": "MIT",
   "babelMacros": {
     "twin": {
@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "NODE_ENV=development vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint-staged": "lint-staged"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -39,6 +40,11 @@
     "twin.macro": "^2.8.2",
     "typescript": "^4.8.2",
     "vite": "^3.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.{js,ts,tsx, jsx}": [
