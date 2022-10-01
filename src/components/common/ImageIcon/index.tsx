@@ -5,7 +5,7 @@ interface ImageIconInterface {
   imageUrl: string
   alt: string
 }
-const Image = tw.img`rounded-full h-24 w-24 block mx-auto`
+const Image = tw.img`rounded-full h-40 w-40 block mx-auto`
 
 const ImageIcon: FC<ImageIconInterface> = ({ imageUrl, alt }) => (
   <Image src={imageUrl} alt={alt} />
