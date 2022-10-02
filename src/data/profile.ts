@@ -3,6 +3,7 @@ interface Props {
   role: string
   imageUrl: string
   alt: string
+  id: string
 }
 export const profiles: Props[] = [
   {
@@ -10,23 +11,27 @@ export const profiles: Props[] = [
     role: 'リーダー , モデル制作 , ハードウェア設計',
     imageUrl: '/assets/image/akane.jpeg',
     alt: "akane's Icon",
+    id: 'vv_vv_vvv__',
   },
   {
     name: 'Keisuke Tominaga',
     role: 'ハードウェア制御 , 回路設計',
     imageUrl: '/assets/image/tommy.jpeg',
     alt: "keisuke's Icon",
+    id: 'tommy31i',
   },
   {
     name: 'Keigo Kondo',
     role: 'ゲーム制作全般 , 回路制作',
     imageUrl: '/assets/image/kondo.jpeg',
     alt: "keigo's Icon",
+    id: '_nakimikan',
   },
   {
     name: 'Shunta Yamagiwa',
     role: 'ゲーム制作アシスト , HP制作',
     imageUrl: '/assets/image/sansai.jpg',
     alt: "shunta's Icon",
+    id: 'sansai_dev',
   },
 ]
