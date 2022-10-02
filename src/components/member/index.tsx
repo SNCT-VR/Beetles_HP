@@ -4,6 +4,7 @@ import { Title } from '../common/Title'
 import { profiles } from '../../data/profile'
 import { ImageIcon } from '../common/ImageIcon'
 import { Text } from '../common/Text'
+import { TwitterID } from '../common/Twitter'
 
 interface MemberInterface {
   title: string
@@ -21,6 +22,7 @@ const Member: FC<MemberInterface> = ({ title }) => (
         <ProfileBox key={item.name}>
           <ImageIcon imageUrl={item.imageUrl} alt={item.alt} />
           <Text css={tw`font-medium`}>{item.name}</Text>
+          <TwitterID>{item.id}</TwitterID>
           <Text>{item.role}</Text>
         </ProfileBox>
       ))}
