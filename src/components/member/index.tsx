@@ -20,7 +20,7 @@ const Member: FC<MemberInterface> = ({ title }) => (
       {profiles.map(item => (
         <ProfileBox key={item.name}>
           <ImageIcon imageUrl={item.imageUrl} alt={item.alt} />
-          <Text>{item.name}</Text>
+          <Text css={tw`font-medium`}>{item.name}</Text>
           <Text>{item.role}</Text>
         </ProfileBox>
       ))}
