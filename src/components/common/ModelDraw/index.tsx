@@ -1,7 +1,7 @@
-import React, { FC, Suspense } from 'react'
+import React, { Suspense } from 'react'
+import type { FC } from 'react'
 import tw from 'twin.macro'
-import { Canvas } from '@react-three/fiber'
-import { useLoader } from '@react-three/fiber'
+import { Canvas, useLoader } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader'
 

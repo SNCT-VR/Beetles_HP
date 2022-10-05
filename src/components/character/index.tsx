@@ -1,4 +1,5 @@
-import React, { FC } from 'react'
+import React from 'react'
+import type { FC } from 'react'
 import tw from 'twin.macro'
 import ModelDraw from '../common/ModelDraw'
 import { Title } from '../common/Title'
