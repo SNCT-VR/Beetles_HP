@@ -7,6 +7,10 @@ module.exports = {
         background: '#eff8e4',
         masara: '#3e393a',
       },
+      fontFamily: {
+        rampart: ['Rampart One', 'cursive'],
+        zen: ['Zen Kaku Gothic New', 'sans-serif'],
+      },
     },
   },
   plugins: [],
