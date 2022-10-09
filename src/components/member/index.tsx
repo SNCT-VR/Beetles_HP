@@ -11,12 +11,12 @@ interface MemberInterface {
   title: string
 }
 
-const MemberContainar = tw.div`space-y-2 text-center`
+const MemberContainer = tw.div`space-y-2 text-center`
 const ProfileBox = tw.div`space-y-1.5  w-full md:w-1/2 my-4`
 const FlexBox = tw.ul`flex justify-center flex-wrap`
 
 const Member: FC<MemberInterface> = ({ title }) => (
-  <MemberContainar>
+  <MemberContainer>
     <Title>{title}</Title>
     <FlexBox>
       {profiles.map(item => (
@@ -28,7 +28,7 @@ const Member: FC<MemberInterface> = ({ title }) => (
         </ProfileBox>
       ))}
     </FlexBox>
-  </MemberContainar>
+  </MemberContainer>
 )
 
 export { Member }

@@ -11,10 +11,10 @@ const Scene = () => {
   return <primitive object={fbx} scale={0.05} />
 }
 
-const ModelDrawContainar = tw.div`bg-white md:w-[calc(100vw/2)]  md:h-[calc(100vh/2)] justify-center border-2  mx-2 md:mx-auto`
+const ModelDrawContainer = tw.div`bg-white md:w-[calc(100vw/2)]  md:h-[calc(100vh/2)] justify-center border-2  mx-2 md:mx-auto`
 
 const ModelDraw: FC = () => (
-  <ModelDrawContainar>
+  <ModelDrawContainer>
     <Canvas>
       <Suspense fallback={null}>
         <ambientLight />
@@ -22,7 +22,7 @@ const ModelDraw: FC = () => (
         <OrbitControls />
       </Suspense>
     </Canvas>
-  </ModelDrawContainar>
+  </ModelDrawContainer>
 )
 
 export default ModelDraw

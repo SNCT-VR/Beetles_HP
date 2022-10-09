@@ -8,13 +8,13 @@ interface AboutInterface {
   title: string
   children: React.ReactNode
 }
-const AboutContainar = tw.div`space-y-4 text-center mx-2`
+const AboutContainer = tw.div`space-y-4 text-center mx-2`
 
 const About: FC<AboutInterface> = ({ title, children }) => (
-  <AboutContainar>
+  <AboutContainer>
     <Title>{title}</Title>
     <Text>{children}</Text>
-  </AboutContainar>
+  </AboutContainer>
 )
 
 export { About }

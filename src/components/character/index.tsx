@@ -8,13 +8,13 @@ interface CharacterInterface {
   title: string
 }
 
-const CharacterContainar = tw.div`space-y-4 text-center`
+const CharacterContainer = tw.div`space-y-4 text-center`
 
 const Character: FC<CharacterInterface> = ({ title }) => (
-  <CharacterContainar>
+  <CharacterContainer>
     <Title>{title}</Title>
     <ModelDraw />
-  </CharacterContainar>
+  </CharacterContainer>
 )
 
 export { Character }
