@@ -9,7 +9,7 @@ module.exports = {
       },
       fontFamily: {
         rampart: ['Rampart One', 'cursive'],
-        zen: ['Zen Kaku Gothic New', 'sans-serif'],
+        zen: ['Zen KakuGothic New', 'sans-serif'],
       },
     },
   },
