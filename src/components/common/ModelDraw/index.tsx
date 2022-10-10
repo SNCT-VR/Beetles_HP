@@ -6,7 +6,7 @@ import { OrbitControls } from '@react-three/drei'
 import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader'
 
 const Scene = () => {
-  const fbx = useLoader(FBXLoader, '/assets/bee/bee.fbx')
+  const fbx = useLoader(FBXLoader, '/models/bee/bee.fbx')
 
   return <primitive object={fbx} scale={0.05} />
 }
