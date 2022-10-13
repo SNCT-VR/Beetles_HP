@@ -1,11 +1,6 @@
 import React from 'react'
-import tw from 'twin.macro'
-import { Sample } from './components/Sample'
+import { MainPage } from './pages/main'
 
-const App = () => (
-  <div>
-    <Sample />
-  </div>
-)
+const App = () => <MainPage />
 
 export default App
