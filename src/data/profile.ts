@@ -16,14 +16,14 @@ export const profiles: Props[] = [
   {
     name: 'Keisuke Tominaga',
     role: 'ハードウェア制御 , 回路設計',
-    imageUrl: '/image/profiles/tommy.jpeg',
+    imageUrl: '/image/profiles/tommy.JPG',
     alt: "keisuke's Icon",
     id: 'tommy31i',
   },
   {
     name: 'Keigo Kondo',
     role: 'ゲーム制作全般 , 回路制作',
-    imageUrl: '/image/profiles/kondo.jpeg',
+    imageUrl: '/image/profiles/kondo.jpg',
     alt: "keigo's Icon",
     id: '_nakimikan',
   },
