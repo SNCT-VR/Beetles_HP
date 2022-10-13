@@ -11,7 +11,7 @@ interface AboutInterface {
   children: React.ReactNode
 }
 const AboutContainer = tw.div`space-y-4 text-center mx-2`
-const FlexBox = tw.ul`flex flex-wrap md:mx-96 justify-center`
+const FlexBox = tw.ul`flex flex-wrap md:mx-24 xl:mx-96 justify-center `
 const ImageStyle = tw`w-72 h-72 md:(w-96 h-96 mx-4 my-4) my-2 mx-2 rounded-3xl `
 
 const About: FC<AboutInterface> = ({ title, children }) => (

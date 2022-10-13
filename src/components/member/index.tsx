@@ -13,7 +13,7 @@ interface MemberInterface {
 
 const MemberContainer = tw.div`space-y-2 text-center`
 const ProfileBox = tw.li`space-y-1.5  w-full md:w-1/2 my-4`
-const FlexBox = tw.ul`flex justify-center flex-wrap`
+const FlexBox = tw.ul`flex justify-center flex-wrap md:mx-12 xl:mx-96`
 
 const Member: FC<MemberInterface> = ({ title }) => (
   <MemberContainer>
