@@ -5,7 +5,7 @@ import tw from 'twin.macro'
 interface LinkInterface {
   children: React.ReactNode
 }
-const Twitter = tw.a`text-blue-500 hover:text-blue-600`
+const Twitter = tw.a`text-blue-600 hover:text-blue-700`
 const link = 'https://twitter.com/'
 
 const TwitterID: FC<LinkInterface> = ({ children }) => (
